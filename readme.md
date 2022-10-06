@@ -1,4 +1,2 @@
 # CrepePlus
-### CrepeSR, packaged.
-
-[Discord](https://discord.gg/antihoyo)
+### CrepeSR, packaged and easier to setup.
