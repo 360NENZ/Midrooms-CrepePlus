@@ -6,6 +6,7 @@ cls
 @echo Please wait for that installatkon to finish. Close that after, then press any key to continue.
 pause
 START QuickServerLaunch.bat
+DEL LICENSE
 DEL temp.bat
 DEL readme.md
 DEL install.bat
