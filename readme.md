@@ -1,2 +1,2 @@
 # CrepePlus
-### CrepeSR, packaged and easier to setup.
+### CrepeSR, packaged for noobs.
