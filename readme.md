@@ -5,6 +5,6 @@
            margin-left: auto;
            margin-right: auto;
            width: 60%;"
-           src="https://user-images.githubusercontent.com/108638658/196236159-1026a148-a8da-45e6-81c3-45df6badcc36.png" 
+           src="https://user-images.githubusercontent.com/108638658/196731274-f17e0d24-61a3-458f-aefb-b7ebb372aa3e.png"
     alt="CrepePlus">
 </img>
