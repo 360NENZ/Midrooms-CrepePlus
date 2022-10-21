@@ -5,6 +5,7 @@ cls
 @echo Please wait for NPM to be installed in the window that just opened. Close it once it's finished, then press a key to continue.
 pause
 START QuickServerLaunch.bat
+DEL CrepePackage.zip
 DEL LICENSE
 DEL temp.bat
 DEL readme.md
