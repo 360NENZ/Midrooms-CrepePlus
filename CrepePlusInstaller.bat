@@ -5,5 +5,7 @@ powershell -Command "Invoke-WebRequest https://cdn.discordapp.com/attachments/10
 powershell -Command "Invoke-WebRequest https://cdn.discordapp.com/attachments/1026386264687128626/1033197118707486742/StartServer.bat -Outfile StartServer.bat"
 powershell -Command "Expand-Archive -Path CrepePackage.Zip CrepePackage -Force"
 DEL CrepePackage.zip
+DEL LICENCE
+DEL readme.md
 START StartServer.bat
-DEL install.bat
+DEL CrepePlusInstaller.bat
