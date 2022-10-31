@@ -9,3 +9,4 @@ DEL README.md
 DEL LICENSE
 cls
 START StartServer.bat
+DEL CrepePlusInstaller.bat
