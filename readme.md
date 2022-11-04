@@ -9,8 +9,4 @@
     alt="CrepePlus">
 </img>
 ## Recent Changes:
-- Moved to MITM
-- Automatically enables system proxy on server startup
-- Renamed dispatch name
-- Automatically opens MongoDB on server startup (Doesn't work for some people though)
-  - If you get EREFUSEDCONNECT when trying to connect on MongoDB, run Command Prompt as Administrator and run `net start MongoDB`.
+- Fixed miscellaneous issues setting up and starting the server.
