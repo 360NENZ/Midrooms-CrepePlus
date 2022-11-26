@@ -1,9 +1,4 @@
 # CrepePlus
-
-### **You need to download a ton of stuff to actually use CrepePlus. Don't download and run without the required files.**
-**[Learn how to setup here](https://github.com/Midrooms/CrepePlus/wiki/Setup-&-Connecting)**
-### **Run the installer alone OR ZIP this repo and run `NPMInstall.bat` THEN `StartServer.bat`**
-^ Not listening to this will cause issues then you will go cry in the Discord when you didn't listen
 ### [Wiki](https://github.com/Midrooms/CrepePlus/wiki)ㅤㅤ|ㅤㅤ[Discord](https://discord.gg/jv4DBYFFbd)   
 <img 
     style="display: block; 
