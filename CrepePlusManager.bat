@@ -4,16 +4,14 @@ echo Welcome to the CrepePlus Manager     -     Created by Midrooms, partly deve
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo 1) Start the CrepePlus server
 echo 2) Update CrepePlus
-echo 3) Install NPM modules
-echo 4) Update NPM modules
-echo 5) Exit
+echo 3) Install/Update NPM modules
+echo 4) Exit
 
 set /p op=Select: 
 if "%op%"=="1" goto start
 if "%op%"=="2" goto update
-if "%op%"=="3" goto instNPM
-if "%op%"=="4" goto updaNPM
-if "%op%"=="5" exit
+if "%op%"=="3" goto NPM
+if "%op%"=="4" exit
 cls
 goto menu
 
@@ -39,14 +37,8 @@ PAUSE
 cls
 goto menu 
 
-:instNPM
+:NPM
 cd %CD%\CrepePackage
-start NPMInstall.bat
-cls
-goto menu
-
-:updaNPM
-cd %cd%\CrepePackage
 start NPMInstall.bat
 cls
 goto menu
