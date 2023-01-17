@@ -17,7 +17,7 @@ goto menu
 
 :start
 cd %cd%\CrepePackage
-START MITMStart.bat
+START MITM.bat
 net start MongoDB
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable /t REG_DWORD /d 1 /f
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyServer /t REG_SZ /d http://127.0.0.1:8080 /f
@@ -31,7 +31,7 @@ powershell -Command "Invoke-WebRequest https://github.com/Midrooms/CrepePackages
 powershell -Command "Expand-Archive -Path CrepePackage.zip CrepePackage -Force"
 DEL CrepePackage.zip
 cd %cd%\CrepePackage\
-START NPMInstall.bat
+START NPM.bat
 cls
 @echo CrepePlus has been updated.
 PAUSE
@@ -40,6 +40,6 @@ goto menu
 
 :NPM
 cd %CD%\CrepePackage
-start NPMInstall.bat
+start NPM.bat
 cls
 goto menu
