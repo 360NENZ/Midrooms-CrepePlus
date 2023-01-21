@@ -4,7 +4,7 @@ echo Welcome to the CrepePlus Manager     -     Created by Midrooms, partly deve
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo 1) Start the CrepePlus server
 echo 2) Update CrepePlus
-echo 3) Install/Update NPM modules
+echo 3) Install/Update node modules
 echo 4) Exit
 
 set /p op=Select: 
@@ -40,6 +40,6 @@ goto menu
 
 :NPM
 cd %CD%\CrepePackage
-start NPM.bat
+start inode.bat
 cls
 goto menu
