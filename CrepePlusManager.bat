@@ -6,7 +6,9 @@ echo 1) Start the CrepePlus server
 echo 2) Update CrepePlus
 echo 3) Install/Update node modules
 echo 4) Exit
+echo 5) Want to try Star Rail CBT3? Enter '5' to learn how.
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 echo Created by Midrooms and rrryfoo
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -15,6 +17,8 @@ if "%op%"=="1" goto start
 if "%op%"=="2" goto update
 if "%op%"=="3" goto NPM
 if "%op%"=="4" exit
+if "%op%"=="5" goto aboutCBT3
+
 cls
 goto menu
 
@@ -43,5 +47,24 @@ goto menu
 :NPM
 cd %CD%\CrepePackage
 start inode.bat
+cls
+goto menu
+
+:aboutCBT3
+cls
+echo Star Rail's 3rd and final Closed Beta has begun, and you guys can play it too. Except, not with CrepePlus quite yet.
+echo If you would like to still try and play, press any key to continue. 
+echo If you do not want to, close the manager and open it again.
+echo ---
+echo Pressing any key will download a folder that contains the steps,
+echo and includes the installer for Fiddler Classic. If you already have Fiddler,
+echo you do not have to install it again, and can just paste the script found in readme.md (in the CrepePlus-beta folder)
+pause
+powershell -Command "Invoke-WebRequest https://github.com/Midrooms/CrepePackages/raw/main/CrepePlus-beta.zip -Outfile CrepePlus-beta.zip"
+powershell -Command "Expand-Archive -Path CrepePlus-beta.zip CrepePlus-beta -Force"
+DEL CrepePlus-beta.zip
+cls
+echo CrepePlus Beta has been downloaded. Please go to the "CrepePlus-beta" folder for the steps and included Fiddler installer.
+pause
 cls
 goto menu
