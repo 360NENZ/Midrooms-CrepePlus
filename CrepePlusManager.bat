@@ -8,8 +8,7 @@ echo 3) Install/Update node modules
 echo 4) Exit
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo Created by Midrooms and rrryfoo
-echo Source code: https://github.com/Midrooms/CrepePlus
-echo Docs: https://github.com/Midrooms/CrepePlus/wiki
+echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 set /p op=Select: 
 if "%op%"=="1" goto start

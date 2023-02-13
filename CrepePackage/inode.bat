@@ -1,4 +1,3 @@
-cd %cd%
-npm i
+npm install
 timeout /t 3
 exit
